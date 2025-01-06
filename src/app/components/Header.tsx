@@ -14,7 +14,7 @@ export default function Nav() {
   }, [pathname]);
 
   const isActive = (path: string) =>
-    currentPath === path ? "text-teal-400" : "text-gray-300";
+    currentPath === path ? "text-teal-50" : "text-gray-300";
 
   return (
     <header className="bg-gray-800 w-full h-[60px] flex justify-between items-center px-3">
@@ -30,21 +30,21 @@ export default function Nav() {
       <nav className="flex space-x-6">
         <Link href="/">
           <p
-            className={`font-normal ${isActive("/")} hover:text-teal-400`}
+            className={`font-normal ${isActive("/")} hover:text-teal-50`}
           >
             Wallet
           </p>
         </Link>
         <Link href="/rewards">
           <p
-            className={`font-normal ${isActive("/rewards")} hover:text-teal-400`}
+            className={`font-normal ${isActive("/rewards")} hover:text-teal-50`}
           >
             Rewards
           </p>
         </Link>
         <Link href="/tasks">
           <p
-            className={`font-normal ${isActive("/tasks")} hover:text-teal-400`}
+            className={`font-normal ${isActive("/tasks")} hover:text-teal-50`}
           >
             Tasks
           </p>
