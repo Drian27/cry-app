@@ -10,7 +10,7 @@ const TasksPage = () => {
       <div className="bg-gray-900 min-h-screen text-white flex flex-col">
         {/* Header */}
         <header className="bg-gray-800 p-4 flex justify-between items-center">
-          <h1 className="text-lg font-bold text-teal-400">XRP Wallet adalah</h1>
+          <h1 className="text-lg font-bold text-teal-400">XRP Wallet is</h1>
           <nav className="flex space-x-4">
             <Link href="/">
               <p className="text-gray-300 hover:text-white">Wallet</p>
@@ -27,12 +27,16 @@ const TasksPage = () => {
         {/* Content */}
         <main className="flex-grow flex items-center justify-center px-4">
           <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm w-full">
-            <h2 className="text-teal-400 text-xl font-semibold mb-2">
-                Tasks
-            </h2>
-            <p className="text-gray-300 mb-4">Share ke 5 teman di Telegram</p>
-            <p className="text-gray-300 mb-4">Join Grup Telegram Resmi</p>
-            <p className="text-gray-300 mb-4">Undang Teman dengan Kode Referral</p>
+            <h2 className="text-teal-400 text-xl font-semibold mb-2">Tasks</h2>
+            <p className="text-gray-300 mb-4">
+              Share with 5 friends on Telegram
+            </p>
+            <p className="text-gray-300 mb-4">
+              Join the Official Telegram Group
+            </p>
+            <p className="text-gray-300 mb-4">
+              Invite Friends with Referral Code
+            </p>
           </div>
         </main>
 

@@ -14,7 +14,7 @@ export default function SignInForm() {
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <header className="bg-gray-800 w-full h-[60px] flex gap-0 p-6 justify-between items-center">
-          <h1 className="text-lg font-bold text-teal-400">XRP Wallet</h1>
+          <h1 className="text-lg font-bold text-teal-400">XRP Wallet is</h1>
           <nav className="flex space-x-4">
             <Link href="/wallet">
               <p className="text-gray-300 hover:text-white">Wallet</p>
@@ -32,13 +32,13 @@ export default function SignInForm() {
         <main className="flex-grow flex items-center justify-center px-4">
           <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm w-full">
             <h2 className="text-teal-400 text-xl font-semibold mb-2">
-              Login dengan Telegram
+              Login with Telegram
             </h2>
             <p className="text-gray-300 mb-4">
-              Masuk untuk mengelola dompet XRP Anda dengan aman.
+              Sign in to manage your XRP wallet securely.
             </p>
             <div className="bg-white text-black p-3 rounded text-start">
-              Bot domain invalid
+              Invalid domain bot
             </div>
           </div>
         </main>
