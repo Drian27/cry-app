@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import Footer from "@/app/components/Footer";
 import Header from "@/app/components/Header";
 
