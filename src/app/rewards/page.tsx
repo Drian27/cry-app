@@ -4,7 +4,7 @@ import Header from "@/app/components/Header";
 
 const RewardsPage = () => {
   return (
-    <div className="relative w-full h-screen flex flex-col sm:max-w-[390px] sm:mx-auto sm:shadow bg-white">
+    <div className="relative w-full h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow bg-white">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto bg-[#191919]">
         {/* Header */}
         <Header />

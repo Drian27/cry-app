@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function SignInForm() {
   return (
-    <div className="relative bg-gray-900 w-full h-screen text-white flex flex-col sm:max-w-[390px] sm:mx-auto sm:shadow">
+    <div className="relative bg-gray-900 w-full h-screen text-white flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <Header />
