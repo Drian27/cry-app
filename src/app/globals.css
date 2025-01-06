@@ -19,3 +19,8 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.gradient-background-cs-unicorn {
+  cursor: pointer;
+  background: linear-gradient(180deg, #FFFFFF0F 0%, #4E494933 100%);
+}

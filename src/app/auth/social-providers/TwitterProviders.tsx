@@ -21,3 +21,5 @@ export const TwitterProviders = () => {
     </svg>
   );
 };
+
+export default TwitterProviders;

@@ -13,19 +13,19 @@ const TasksPage = () => {
         <section className="flex-grow flex items-center justify-center px-4">
           <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm w-full">
             <h2 className="text-teal-400 text-xl font-semibold mb-4">Tasks</h2>
-            <div className="mb-4">
-              <p className="text-gray-300 mb-2">Share with 5 friends on Telegram</p>
-              <button className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition">Get it done</button>
+            <div className="bg-gray-700 w-full h-full flex justify-center items-center rounded gap-2 py-3 px-3 mb-4">
+              <p className="text-gray-300 w-full text-[16px] font-normal mb-0">Share with 5 friends on Telegram</p>
+              <button className="bg-teal-500 text-[15px] font-semibold text-[#191919] text-center w-[50%] h-[40px] py-2 px-2 rounded hover:bg-teal-600 transition">Get it done</button>
             </div>
 
-            <div className="mb-4">
-              <p className="text-gray-300 mb-2">Join the Official Telegram Group</p>
-              <button className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition">Get it done</button>
+            <div className="bg-gray-700 w-full h-full flex justify-center items-center rounded gap-2 py-3 px-3 mb-4">
+              <p className="text-gray-300 w-full text-[16px] font-normal mb-0">Join the Official Telegram Group</p>
+              <button className="bg-teal-500 text-[15px] font-semibold text-[#191919] text-center w-[50%] h-[40px] py-2 px-2 rounded hover:bg-teal-600 transition">Get it done</button>
             </div>
 
-            <div className="mb-4">
-              <p className="text-gray-300 mb-2">Invite Friends with Referral Code</p>
-              <button className="bg-teal-500 text-white py-2 px-4 rounded hover:bg-teal-600 transition">Get it done</button>
+            <div className="bg-gray-700 w-full h-full flex justify-center items-center rounded gap-2 py-3 px-3 mb-4">
+              <p className="text-gray-300 w-full text-[16px] font-normal mb-0">Invite Friends with Referral Code</p>
+              <button className="bg-teal-500 text-[15px] font-semibold text-[#191919] text-center w-[50%] h-[40px] py-2 px-2 rounded hover:bg-teal-600 transition">Get it done</button>
             </div>
           </div>
         </section>

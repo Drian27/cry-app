@@ -24,3 +24,4 @@ export const FacebookProvider = () => {
     );
   };
   
+export default FacebookProvider;

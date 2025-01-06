@@ -33,3 +33,5 @@ export const GoogleProvider = () => {
     </svg>
   );
 };
+
+export default GoogleProvider;
