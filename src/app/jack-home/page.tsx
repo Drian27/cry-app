@@ -8,7 +8,7 @@ import IconCardProviders from "../auth/social-providers/IconCardProviders";
 
 const JackHomePage = () => {
   return (
-    <div className="relative bg-[#28333F] w-full h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
+    <div className="relative bg-[#28333F] h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <Header />
