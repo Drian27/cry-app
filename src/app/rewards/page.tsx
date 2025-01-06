@@ -5,13 +5,13 @@ import Header from "@/app/components/Header";
 
 const RewardsPage = () => {
   return (
-    <div>
-      <div className="bg-gray-900 min-h-screen text-white flex flex-col">
-        {/* Header */}
-        <Header />
+    <div className="relative w-full h-screen flex flex-col sm:max-w-[390px] sm:mx-auto sm:shadow bg-white">
+    <main className="w-full min-h-screen flex flex-col py-1 overflow-auto bg-[#191919]">
+      {/* Header */}
+      <Header />
 
         {/* Content */}
-        <main className="flex-grow flex items-center justify-center px-4">
+        <section className="flex-grow flex items-center justify-center px-4">
           <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm w-full">
             <h2 className="text-teal-400 text-xl font-semibold mb-4">
               Rewards
@@ -38,12 +38,12 @@ const RewardsPage = () => {
               Claim Airdrop
             </button>
           </div>
-        </main>
+        </section>
 
-        {/* Footer Navigation */}
-        <Footer />
-      </div>
-    </div>
+      {/* Footer Navigation */}
+      <Footer />
+    </main>
+  </div>
   );
 };
 
