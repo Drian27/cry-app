@@ -9,7 +9,7 @@ import IconCardProviders from "../auth/social-providers/IconCardProviders";
 import LightningProviders from "../auth/social-providers/LightningProviders";
 
 const JackHomePage = () => {
-  const [progress, setProgress] = useState(6); // Progress awal 1%
+  const [progress, setProgress] = useState(6); // Progress awal 6%
   const [level, setLevel] = useState(6); // Level awal
 
   // Fungsi untuk meningkatkan progress saat gambar diklik
