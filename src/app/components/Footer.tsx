@@ -28,6 +28,16 @@ export default function Footer() {
           </div>
         </Link>
 
+        {/* Tap-Tap Link */}
+        <Link href="/tap-tap" passHref>
+          <div
+            className={`flex flex-col items-center ${isActive("/tap-tap")}`}
+          >
+            <FaGift size={24} />
+            <span className="text-sm font-normal">Mine</span>
+          </div>
+        </Link>
+
         {/* Rewards Link */}
         <Link href="/rewards" passHref>
           <div
