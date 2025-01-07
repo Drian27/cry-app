@@ -27,7 +27,7 @@ const TaptapPage = () => {
         <Header />
 
         {/* Content */}
-        <section className="bg-[#28333F] flex-1 flex flex-col gap-3 px-3 p-1">
+        <section className="flex-1 flex flex-col gap-3 px-3 p-1">
           <div className="w-full h-auto mt-10 p-2">
             <div className="flex items-center justify-center gap-1 mb-1">
               <Image

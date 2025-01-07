@@ -4,13 +4,13 @@ import Header from "@/app/components/Header";
 
 const RewardsPage = () => {
   return (
-    <div className="relative w-full h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow bg-white">
-      <main className="w-full min-h-screen flex flex-col py-1 overflow-auto bg-[#191919]">
+    <div className="relative bg-gray-900 w-full h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
+      <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <Header />
 
         {/* Content */}
-        <section className="flex-grow flex items-center justify-center px-4">
+        <section className="bg-gray-900 flex-grow flex items-center justify-center px-4">
           <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm w-full">
             <h2 className="text-teal-400 text-xl font-semibold mb-4">Rewards</h2>
 

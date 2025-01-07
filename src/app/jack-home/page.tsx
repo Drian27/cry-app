@@ -17,13 +17,13 @@ const JackHomePage = () => {
   };
 
   return (
-    <div className="relative bg-[#28333F] h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
+    <div className="relative bg-gray-900 h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <Header />
 
         {/* Content */}
-        <section className="bg-[#28333F] flex-1 flex flex-col gap-1 px-3 p-1">
+        <section className="bg-gray-900 flex-1 flex flex-col gap-1 px-3 p-1">
           <div>
             {/* Private Key */}
             <div className="bg-[#32363C] w-full flex flex-col justify-center rounded-lg p-2 px-3 text-left gap-2 mb-3 mt-3">
