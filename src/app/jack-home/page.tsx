@@ -1,4 +1,6 @@
-import React from "react";
+"use client"
+
+import React, { useState } from "react";
 import Image from "next/image";
 import Header from "@/app/components/Header";
 import Footer from "../components/Footer";
@@ -7,6 +9,22 @@ import IconCardProviders from "../auth/social-providers/IconCardProviders";
 import LightningProviders from "../auth/social-providers/LightningProviders";
 
 const JackHomePage = () => {
+  const [progress, setProgress] = useState(6); // Progress awal 1%
+  const [level, setLevel] = useState(6); // Level awal
+
+  // Fungsi untuk meningkatkan progress saat gambar diklik
+  const handleImageClick = () => {
+    if (progress < 100) {
+      const newProgress = progress + 1; // Tambah 1% setiap klik
+      setProgress(newProgress);
+
+      // Perbarui level jika progress mencapai kelipatan 10
+      if (newProgress >= level * 10 && level < 10) {
+        setLevel(level + 1);
+      }
+    }
+  };
+
   return (
     <div className="relative bg-[#28333F] h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
@@ -53,6 +71,7 @@ const JackHomePage = () => {
             </div>
           </div>
 
+          {/* Coin Display */}
           <div className="w-full h-auto p-1">
             <div className="flex items-center justify-center gap-1 mb-0">
               <Image
@@ -65,6 +84,7 @@ const JackHomePage = () => {
               <h3 className="text-white text-[40px] font-bold">666,666</h3>
             </div>
 
+            {/* Progress Bar */}
             <div className="flex w-full h-auto justify-between items-center mb-0">
               <span className="text-white text-[10px] font-medium">
                 Epic &gt;
@@ -73,25 +93,26 @@ const JackHomePage = () => {
                 <span className="text-gray-400 text-[10px] font-medium">
                   Level
                 </span>{" "}
-                6/10
+                {level}/10
               </span>
             </div>
-
             <div className="relative w-full h-[13px] bg-[#32363C] rounded-full">
               <div
                 className="absolute h-full bg-gradient-to-r from-[#ADFAA1] via-[#C597CC] to-[#2F39A3] rounded-full"
-                style={{ width: "6%" }}
+                style={{ width: `${progress}%` }}
               ></div>
             </div>
           </div>
 
+          {/* Interactive Character */}
           <div className="p-1 px-1">
             <Image
               src="/character-icon.png"
-              alt="earth-europe"
+              alt="Character Icon"
               width={432}
               height={432}
               className="w-full h-auto cursor-pointer"
+              onClick={handleImageClick} // Tambahkan event handler
             />
           </div>
 
@@ -99,7 +120,9 @@ const JackHomePage = () => {
             <div className="w-full flex justify-between items-center">
               <div className="flex items-center gap-2">
                 <LightningProviders />
-                <p className="text-white text-sm font-semibold">6500 / 6500</p>
+                <p className="text-white text-sm font-semibold">
+                  6500 / 6500
+                </p>
               </div>
               <div className="flex items-center gap-3">
                 <p className="text-white text-sm font-semibold">Boost</p>
