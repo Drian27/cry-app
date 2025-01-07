@@ -24,7 +24,7 @@ export default function Footer() {
         <Link href="/" passHref>
           <div className={`flex flex-col items-center ${isActive("/")}`}>
             <FaLock size={24} />
-            <span className="text-sm font-normal">Wallet</span>
+            <span className="text-sm font-normal mt-2">Wallet</span>
           </div>
         </Link>
 
@@ -32,7 +32,7 @@ export default function Footer() {
         <Link href="/tap-tap" passHref>
           <div className={`flex flex-col items-center ${isActive("/tap-tap")}`}>
             <LuPickaxe size={24} />
-            <span className="text-sm font-normal">Mine</span>
+            <span className="text-sm font-normal mt-2">Mine</span>
           </div>
         </Link>
 
@@ -40,7 +40,7 @@ export default function Footer() {
         <Link href="/rewards" passHref>
           <div className={`flex flex-col items-center ${isActive("/rewards")}`}>
             <FaGift size={24} />
-            <span className="text-sm font-normal">Rewards</span>
+            <span className="text-sm font-normal mt-2">Rewards</span>
           </div>
         </Link>
 
@@ -48,7 +48,7 @@ export default function Footer() {
         <Link href="/tasks" passHref>
           <div className={`flex flex-col items-center ${isActive("/tasks")}`}>
             <FaBook size={24} />
-            <span className="text-sm font-normal">Tasks</span>
+            <span className="text-sm font-normal mt-2">Tasks</span>
           </div>
         </Link>
       </div>
