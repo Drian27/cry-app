@@ -21,14 +21,14 @@ const TaptapPage = () => {
   const level = Math.min(Math.ceil(progress / 10), 10); // Maksimal level 10
 
   return (
-    <div className="relative bg-gray-900 w-full h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
+    <div className="relative bg-gray-900 h-screen flex flex-col sm:max-w-[430px] sm:mx-auto sm:shadow">
       <main className="w-full min-h-screen flex flex-col py-1 overflow-auto">
         {/* Header */}
         <Header />
 
         {/* Content */}
-        <section className="flex-1 flex flex-col gap-3 px-3 p-1">
-          <div className="w-full h-auto mt-10 p-2">
+        <section className="bg-gray-900 flex-1 flex flex-col gap-1 px-3 p-1">
+          <div className="w-full h-auto mt-3 p-2">
             <div className="flex items-center justify-center gap-1 mb-1">
               <Image
                 src="/coin-icon.png"
