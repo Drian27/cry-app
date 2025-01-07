@@ -28,7 +28,7 @@ const TaptapPage = () => {
 
         {/* Content */}
         <section className="bg-gray-900 flex-1 flex flex-col gap-1 px-3 p-1">
-          <div className="w-full h-auto mt-3 p-2">
+          <div className="w-full h-auto mt-3 mb-5 p-2">
             <div className="flex items-center justify-center gap-1 mb-1">
               <Image
                 src="/coin-icon.png"
@@ -55,7 +55,7 @@ const TaptapPage = () => {
             </div>
           </div>
 
-          <div className="p-1 px-1 mb-6">
+          <div className="p-1 px-1 mb-5">
             <Image
               src="/hero.png"
               alt="Hero"
@@ -66,7 +66,7 @@ const TaptapPage = () => {
             />
           </div>
 
-          <div className="w-full h-auto flex items-center">
+          <div className="w-full h-auto flex items-center mt-5">
             <div className="w-full flex justify-between items-center p-2">
               <div className="flex items-center gap-2">
                 <LightningProviders />
