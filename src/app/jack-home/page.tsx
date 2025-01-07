@@ -107,12 +107,12 @@ const JackHomePage = () => {
           {/* Interactive Character */}
           <div className="p-1 px-1">
             <Image
-              src="/character-icon.png"
-              alt="Character Icon"
+              src="/hero.png"
+              alt="Hero"
               width={432}
               height={432}
               className="w-full h-auto cursor-pointer"
-              onClick={handleImageClick} // Tambahkan event handler
+              onClick={handleImageClick} // tambahkan event handler click
             />
           </div>
 
